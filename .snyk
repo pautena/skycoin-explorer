@@ -12,4 +12,29 @@ patch:
     - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms: null
     - karma > log4js > mailgun-js > debug > ms:
         patched: '2018-05-04T03:41:07.077Z'
+  'npm:hoek:20180212':
+    - '@angular-devkit/build-angular > node-sass > request > hawk > sntp > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2018-06-19T08:02:44.500Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2018-06-19T08:02:44.500Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > request > hawk > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > request > hawk > boom > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > node-gyp > request > hawk > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
+    - '@angular-devkit/build-angular > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-19T08:02:44.500Z'
 patched: '2018-04-18T04:53:49.215Z'
